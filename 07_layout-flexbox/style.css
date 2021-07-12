@@ -64,15 +64,20 @@ ul {
 /*special-offers*/
 
 
-.special-offers-list {
+.special-offers {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
+	margin: 0 auto;
 }
 
-.special-offers-list-one {
-margin-right: 200px;
+.special-offers-list {
+	width: 585px;
 }
+
+.card {
+	width: 100%;
+}
+
 
 /*about-us*/
 
