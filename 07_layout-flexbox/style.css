@@ -8,6 +8,11 @@ ul {
 	padding: 0;
 }
 
+p {
+	padding: 0;
+	margin: 0;
+}
+
 .container {
 	max-width: 1200px;
 	margin-left: auto;
@@ -19,15 +24,13 @@ ul {
 /*header-up*/
 
 .header-up {
+	display: flex;
+	flex-flow: row wrap;
 	margin-bottom: 30px;
 }
 
-.header-up-list {
-	display: flex;
-	flex-flow: row wrap;
-}
 
-.header-up-item:not(:last-child) {
+.logo {
 	margin-right: 15px;
 }
 
@@ -96,6 +99,7 @@ ul {
 .services-item {
 	flex: 0 0 50%;
 	max-width: 50%;
+	margin-bottom: 20px;
 }
 
 .services-text {
@@ -112,10 +116,12 @@ ul {
 .advantages-item {
 	flex: 0 0 25%;
 	max-width: 25%;
+	margin-bottom: 30px;
 }
 
 .advantages-text {
 	padding-right: 10px;
+	max-width: 90%;
 }
 
 /*hotels*/
