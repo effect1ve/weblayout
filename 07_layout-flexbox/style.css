@@ -8,6 +8,10 @@ ul {
 	padding: 0;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 .container {
 	max-width: 1200px;
 	margin-left: auto;
@@ -47,7 +51,7 @@ ul {
 }
 
 .header-down-btn {
-	margin-left: auto;
+	margin-right: auto;
 	align-self: center;
 	text-align: center;
 	min-width: 50px ;
@@ -61,6 +65,16 @@ ul {
 
 /*special-offers*/
 
+.headline-title{
+	margin: 30px 0 40px 0;
+}
+
+.special-offers-info {
+	margin: 0 0 20px 0;
+}
+ .card {
+ 	margin-bottom: 20px;
+ }
 
 .special-offers {
 	display: flex;
@@ -79,6 +93,10 @@ ul {
 
 /*about-us*/
 
+.about-us-title {
+	margin: 0 0 20px 0;
+}
+
 .about-us-text {
 	display: block;
 	text-align: justify;
@@ -87,6 +105,10 @@ ul {
 
 /*services*/
 
+.services-title {
+	margin: 20px 0 30px 0;
+}
+
 .services-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -94,9 +116,13 @@ ul {
 
 .services-item {
 	flex: 0 0 50%;
-	max-width: 49.169%;
-	margin-bottom: 20px;
-	margin-right: 10px;
+	max-width: 50%;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+
+.services-link-title {
+	margin: 0 0 20px 0;
 }
 
 .services-text {
@@ -105,6 +131,10 @@ ul {
 
 /*advantages*/
 
+.advantages-title {
+	margin: 30px 0;
+}
+
 .advantages-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -112,9 +142,9 @@ ul {
 
 .advantages-item {
 	flex: 0 0 25%;
-	max-width: 24.169%;
-	margin-bottom: 30px;
-	margin-right: 10px;
+	max-width: 25%;
+	padding-bottom: 30px;
+	padding-right: 10px;
 }
 
 .advantages-text {
@@ -123,14 +153,18 @@ ul {
 
 /*hotels*/
 
+.placing-title {
+	margin: 20px 0;
+}
+
 .hotel-list {
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .hotel-item {
-	flex: 0 0 32%;
-	margin: 0 10px 10px 0;
+	flex: 0 0 33.33%;
+	padding: 0 10px 10px 0;
 }
 
 .hotel-location {
