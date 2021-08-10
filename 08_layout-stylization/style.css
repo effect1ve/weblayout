@@ -76,12 +76,12 @@ ul {
 	border-radius: 15px;
 }
 
-.header-up-call {
+.header-up-cabinet {
+	margin-left: auto;
 	color: #000;
 }
 
-.header-up-cabinet {
-	margin-left: auto;
+.header-up-call {
 	color: #000;
 }
 
