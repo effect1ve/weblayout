@@ -32,13 +32,11 @@
 
 * {
 	box-sizing: border-box;
-	font-family: 'MullerRegular';
-	margin: 0;
-	padding: 0;
 }
 
 body {
 	background: #E5E5E5;
+	font-family: 'MullerRegular';
 }
 
 a {
@@ -47,8 +45,6 @@ a {
 
 ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
 
 .container {
@@ -66,6 +62,7 @@ ul {
 	align-items: center;
 	flex-direction: row;
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 .logo {
@@ -78,11 +75,15 @@ ul {
 
 .header-up-cabinet {
 	margin-left: auto;
-	color: #000;
+	color: #CC9933;
 }
 
 .header-up-call {
-	color: #000;
+	color: #666;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 500;
+
 }
 
 /*header-down*/
@@ -91,40 +92,40 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 70px;
+	min-height: 70px;
 	margin-bottom: 70px;
 	background-color: #fff;
 	border-radius: 15px;
+	padding: 0 45px;
 }
 
 .nav {
-	margin-right: 56px;
-	margin-left: 45px;
+	padding-right: 56px;
+	border-right: 1px solid #e1e1e1;
+
 }
 
 .nav-list {
 	display: flex;
+	padding: 0;
+	margin: 0;
 }
 
 .nav-item {
 	font-size: 16px;
+	line-height: 16px;
 }
 
 .nav-link {
-	color: #000;
+	color: #333;
 }
 
 .nav-item:not(:last-child) {
 	margin-right: 45px;
 }
 
-.svg-line {
-	overflow: visible;
-}
-
 .header-down-button {
-	margin-left: auto;
-	margin-right: 45px;
+	margin-left: 57px;
 }
 
 .header-down-btn {
@@ -145,9 +146,11 @@ ul {
 
 /*special-offers*/
 
+.section-special-offers {
+	margin-bottom: 70px;
+}
+
 .headline-title{
-	width: 357px;
-	height: 40px;
 	margin-left: 40px;
 	margin-bottom: 20px;
 	font-style: normal;
@@ -160,7 +163,6 @@ ul {
 .special-offers {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 auto;
 }
 
 .special-offers-list {
@@ -169,35 +171,38 @@ ul {
 
 .card {
 	border-radius: 15px;
-	margin-bottom: 23px;
-	margin-right: 23px;
+	padding-top: 40px;
+	padding-left: 40px;
+	display: flex;
+	flex-direction: column;
 }
 
 .special-offers-card-1 {
 	background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(img/spec_1.jpg);
 	width: 573px;
-	height: 258px;
-
+	min-height: 258px;
+	margin-bottom: 23px;
+	margin-right: 23px;
 }
 
 .special-offers-card-2 {
 	background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(img/spec_2.jpg);
 	width: 573px;
-	height: 258px;
+	min-height: 258px;
+	margin-right: 23px;
 }
 
 .special-offers-card-3{
 	width: 573px;
-	height: 540px;
+	min-height: 540px;
 	background-image: url(img/spec_3.jpg);
 }
 
 .special-offers-info-1 {
-	position: absolute;
 	width: 299px;
-	height: 80px;
+	min-height: 80px;
+	margin: 0 0 15px 0;
 	line-height: 40px;
-	margin: 40px 0 15px 40px;
 	font-size: 40px;
 	font-weight: bold;
 	font-style: normal;
@@ -205,11 +210,9 @@ ul {
 }
 
 .special-offers-price-1 {
-	position: absolute;
 	width: 119px;
-	height: 20px;
-	margin-left: 40px;
-	margin-top: 135px;
+	min-height: 20px;
+	margin: 0 0 47px 0;
 	font-size: 20px;
 	line-height: 20px;
 	font-family: 'MullerLight';
@@ -218,11 +221,8 @@ ul {
 }
 
 .special-offers-more-1 {
-	position: absolute;
 	width: 103px;
-	height: 16px;
-	margin-left: 40px;
-	margin-top: 202px;
+	min-height: 16px;
 	color: #FFCC66;
 	font-size: 16px;
 	line-height: 16px;
@@ -234,11 +234,10 @@ ul {
 }
 
 .special-offers-info-2 {
-	position: absolute;
 	width: 299px;
-	height: 80px;
+	min-height: 80px;
 	line-height: 40px;
-	margin: 40px 0 15px 40px;
+	margin: 0 0 15px 0;
 	font-size: 40px;
 	font-weight: bold;
 	font-style: normal;
@@ -246,11 +245,9 @@ ul {
 }
 
 .special-offers-price-2 {
-	position: absolute;
 	width: 122px;
-	height: 20px;
-	margin-left: 40px;
-	margin-top: 135px;
+	min-height: 20px;
+	margin: 0 0 47px 0;
 	font-size: 20px;
 	line-height: 20px;
 	font-family: 'MullerLight';
@@ -259,22 +256,17 @@ ul {
 }
 
 .special-offers-more-2 {
-	position: absolute;
 	width: 103px;
-	height: 16px;
-	margin-left: 40px;
-	margin-top: 202px;
+	min-height: 16px;
 	color: #FFCC66;
 	font-size: 16px;
 	line-height: 16px;
 }
 
 .special-offers-info-3 {
-	position: absolute;
 	width: 299px;
-	height: 180px;
-	margin-left: 40px;
-	margin-top: 211px;
+	min-height: 180px;
+	margin: 171px 0 15px 0;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 60px;
@@ -283,11 +275,9 @@ ul {
 }
 
 .special-offers-price-3 {
-	position: absolute;
 	width: 154px;
-	height: 30px;
-	margin-top: 406px;
-	margin-left: 40px;
+	min-height: 30px;
+	margin: 0 0 47px 0;
 	font-size: 30px;
 	line-height: 30px;
 	color: #fff;
@@ -296,11 +286,8 @@ ul {
 }
 
 .special-offers-more-3 {
-	position: absolute;
 	width: 103px;
-	height: 16px;
-	margin-left: 40px;
-	margin-top: 483px;
+	min-height: 16px;
 	color: #FFCC66;
 	font-size: 16px;
 	line-height: 16px;
@@ -308,10 +295,12 @@ ul {
 
 /*about-us*/
 
+.section-about-us {
+	margin-bottom: 70px;
+}
+
 .about-us-title {
-	margin: 70px 0 11px 40px;
-	width: 109px;
-	height: 40px;
+	margin: 0 0 11px 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -322,15 +311,18 @@ ul {
 	width: 888px;
 	font-size: 16px;
 	line-height: 200%;
-	height: 180px;
+	min-height: 180px;
 	margin-bottom: 70px;
 }
 
 /*services*/
 
+.section-services {
+	margin-bottom: 70px;
+}
+
 .services-title {
-	margin: 70px 0 20px 40px;
-	height: 40px;
+	margin: 0 0 20px 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -340,15 +332,35 @@ ul {
 .services-list {
 	display: flex;
 	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
 }
 
 .services-item {
-	display: flex;
-	flex-direction: column;
+	padding: 191px 0 0 45px;
 	border-radius: 15px 15px 0 0;
 	width: 573px;
-	height: 330px;
-	background-color: #fff;
+	min-height: 330px;
+}
+
+.services-item-img-1 {
+	background: no-repeat url(img/10.jpg), #fff;
+	background-size: 100%;
+}
+
+.services-item-img-2 {
+	background: no-repeat url(img/15.jpg), #fff;
+	background-size: 100%;
+}
+
+.services-item-img-3 {
+	background: no-repeat url(img/12.jpg), #fff;
+	background-size: 100%;
+}
+
+.services-item-img-4 {
+	background: no-repeat url(img/16.jpg), #fff;
+	background-size: 100%;
 }
 
 .services-img {
@@ -366,8 +378,13 @@ ul {
 	margin-bottom: 23px;
 }
 
+.services-link {
+	display: inline-block;
+	margin: 0;
+}
+
 .services-link-title {
-	margin: 26px 0 0 45px;
+	margin: 0;
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 200%;
@@ -380,18 +397,21 @@ ul {
 }
 
 .services-text {
+	margin: 0;
 	width: 402px;
-	height: 51px;
-	margin-left: 45px;
+	min-height: 51px;
 	font-size: 16px;
 	line-height: 200%;
 }
 
 /*advantages*/
 
+.section-advantages {
+	margin-bottom: 70px;
+}
+
 .advantages-title {
-	margin: 70px 0 30px 40px;
-	height: 40px;
+	margin: 0 0 30px 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -401,11 +421,13 @@ ul {
 .advantages-list {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
 }
 
 .advantages-item {
 	width: 275px;
-	height: 275px;
+	min-height: 275px;
 	background-color: #fff;
 	margin-bottom: 23px;
 	border-radius: 15px;
@@ -421,7 +443,7 @@ ul {
 
 .advantages-text {
 	width: 188px;
-	height: 118px;
+	min-height: 118px;
 	margin-left: 45px;
 	font-size: 16px;
 	line-height: 32px;
@@ -429,9 +451,12 @@ ul {
 
 /*hotels*/
 
+.section-placing {
+	margin-bottom: 70px;
+}
+
 .placing-title {
-	margin: 70px 0 30px 40px;
-	height: 40px;
+	margin: 0 0 30px 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -441,13 +466,16 @@ ul {
 .hotel-list {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
 }
 
 .hotel-item {
 	width: 374px;
-	height: 440px;
+	min-height: 440px;
 	background-color: #fff;
 	border-radius: 15px;
+	margin-bottom: 23px;
 }
 
 .hotel-margin {
