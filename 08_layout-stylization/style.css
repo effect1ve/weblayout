@@ -150,9 +150,8 @@ ul {
 	margin-bottom: 70px;
 }
 
-.headline-title{
-	margin-left: 40px;
-	margin-bottom: 20px;
+.special-offers-title{
+	margin: 0 0 20px 40px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -171,8 +170,7 @@ ul {
 
 .card {
 	border-radius: 15px;
-	padding-top: 40px;
-	padding-left: 40px;
+	padding: 40px;
 	display: flex;
 	flex-direction: column;
 }
@@ -300,7 +298,7 @@ ul {
 }
 
 .about-us-title {
-	margin: 0 0 11px 40px;
+	margin: 0 0 0 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -308,11 +306,13 @@ ul {
 }
 
 .about-us-text {
+	margin: 0;
 	width: 888px;
 	font-size: 16px;
 	line-height: 200%;
 	min-height: 180px;
 	margin-bottom: 70px;
+	padding: 11px 0;
 }
 
 /*services*/
@@ -337,8 +337,8 @@ ul {
 }
 
 .services-item {
-	padding: 191px 0 0 45px;
-	border-radius: 15px 15px 0 0;
+	padding: 191px 45px 50px 45px;
+	border-radius: 15px;
 	width: 573px;
 	min-height: 330px;
 }
@@ -402,6 +402,7 @@ ul {
 	min-height: 51px;
 	font-size: 16px;
 	line-height: 200%;
+	padding-bottom: 10px;
 }
 
 /*advantages*/
@@ -444,9 +445,10 @@ ul {
 .advantages-text {
 	width: 188px;
 	min-height: 118px;
-	margin-left: 45px;
+	margin: 0 0 0 45px;
 	font-size: 16px;
 	line-height: 32px;
+	padding-bottom: 20px;
 }
 
 /*hotels*/
@@ -476,6 +478,7 @@ ul {
 	background-color: #fff;
 	border-radius: 15px;
 	margin-bottom: 23px;
+	padding-bottom: 30px;
 }
 
 .hotel-margin {
