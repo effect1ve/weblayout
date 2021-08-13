@@ -151,7 +151,8 @@ ul {
 }
 
 .special-offers-title{
-	margin: 0 0 20px 40px;
+	margin: 0 0 20px 0;
+	padding-left: 40px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -298,7 +299,8 @@ ul {
 }
 
 .about-us-title {
-	margin: 0 0 0 40px;
+	margin:0;
+	padding-left: 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -322,7 +324,8 @@ ul {
 }
 
 .services-title {
-	margin: 0 0 20px 40px;
+	margin: 0 0 20px 0;
+	padding-left: 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -412,7 +415,8 @@ ul {
 }
 
 .advantages-title {
-	margin: 0 0 30px 40px;
+	margin: 0 0 30px 0;
+	padding-left: 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -432,10 +436,55 @@ ul {
 	background-color: #fff;
 	margin-bottom: 23px;
 	border-radius: 15px;
+	padding: 40px 45px 20px 45px;
 }
 
-.advanteges-img {
-	margin: 40px 0 10px 45px;
+.adv-img-1 {
+	background: url(img/bathtub.png), #fff;
+	background-repeat: no-repeat;
+	background-position: top 40px left 45px;
+}
+
+.adv-img-2 {
+	background: url(img/hanger.png), #fff;
+	background-repeat: no-repeat;
+	background-position: top 40px left 45px;
+}
+
+.adv-img-3 {
+	background: url(img/heating.png), #fff;
+	background-repeat: no-repeat;
+	background-position: top 40px left 45px;
+}
+
+.adv-img-4 {
+	background: url(img/hotel-key.png), #fff;
+	background-repeat: no-repeat;
+	background-position: top 40px left 45px;
+}
+
+.adv-img-5 {
+	background: url(img/parking.png), #fff;
+	background-repeat: no-repeat;
+	background-position: top 40px left 45px;
+}
+
+.adv-img-6 {
+	background: url(img/reception.png), #fff;
+	background-repeat: no-repeat;
+	background-position: top 40px left 45px;
+}
+
+.adv-img-7 {
+	background: url(img/security-box.png), #fff;
+	background-repeat: no-repeat;
+	background-position: top 40px left 45px;
+}
+
+.adv-img-8 {
+	background: url(img/swimming-pool.png), #fff;
+	background-repeat: no-repeat;
+	background-position: top 40px left 45px;
 }
 
 .advanteges-item-margin {
@@ -445,10 +494,10 @@ ul {
 .advantages-text {
 	width: 188px;
 	min-height: 118px;
-	margin: 0 0 0 45px;
 	font-size: 16px;
 	line-height: 32px;
-	padding-bottom: 20px;
+	margin: 0;
+	padding-top: 76px;
 }
 
 /*hotels*/
@@ -458,7 +507,8 @@ ul {
 }
 
 .placing-title {
-	margin: 0 0 30px 40px;
+	margin: 0 0 30px 0px;
+	padding-left: 40px;
 	font-size: 40px;
 	line-height: 40px;
 	font-weight: normal;
@@ -502,7 +552,8 @@ ul {
 }
 
 .hotel-price {
-	margin: 36px 44px 16px 45px;
+	margin: 0 44px 16px 0;
+	padding: 36px 0 0 45px;
 }
 
 .hotel-price-ot {
@@ -514,13 +565,15 @@ ul {
 }
 
 .hotel-description {
-	margin: 0 0 16px 45px;
+	margin: 0 0 16px 0;
+	padding-left: 45px;
 	font-size: 16px;
 	line-height: 16px;
 }
 
 .hotel-location {
-	margin: 0 0 20px 45px;
+	margin: 0 0 20px 0;
+	padding-left: 45px;
 	color: #999;
 	font-size: 16px;
 	line-height: 16px;
