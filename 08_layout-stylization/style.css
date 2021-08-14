@@ -528,20 +528,15 @@ ul {
 	background-color: #fff;
 	border-radius: 15px;
 	margin-bottom: 23px;
-	padding: 30px 46px 30px 45px;
 }
 
-.hotel-card {
-	position: relative;
-
+.hotel-card-wrapper {
+		padding: 30px 46px 30px 45px;
 }
 
 .hotel-img {
-	position: relative;
-	right: 45px;
-	top: -30px;
 	border-radius: 15px 15px 0 0;
-	width: 374px;
+	width: 100%;
 }
 
 .hotel-margin {
@@ -559,7 +554,6 @@ ul {
 }
 
 .hotel-price {
-	padding-top: 6px;
 	margin: 0 46px 16px 0;
 }
 
