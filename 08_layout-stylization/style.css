@@ -529,57 +529,19 @@ ul {
 	border-radius: 15px;
 	margin-bottom: 23px;
 	padding: 30px 46px 30px 45px;
-
-/*	padding-bottom: 30px;*/
 }
 
-.hotel-card-1 {
-	background: url(img/23.jpg), #fff;
-	background-repeat: no-repeat;
-	background-position: left 0 top 0;
-	background-size: 100%;
+.hotel-card {
+	position: relative;
+
 }
 
-.hotel-card-2 {
-	background: url(img/24.png), #fff;
-	background-repeat: no-repeat;
-	background-position: left 0 top 0;
-}
-
-.hotel-card-3 {
-	background: url(img/26.jpg), #fff;
-	background-repeat: no-repeat;
-	background-position: left 0 top 0;
-}
-
-.hotel-card-4 {
-	background: url(img/29-1.jpg), #fff;
-	background-repeat: no-repeat;
-	background-position: left 0 top 0;
-}
-
-.hotel-card-5 {
-	background: url(img/30.jpg), #fff;
-	background-repeat: no-repeat;
-	background-position: left 0 top 0;
-}
-
-.hotel-card-6 {
-	background: url(img/31.jpg), #fff;
-	background-repeat: no-repeat;
-	background-position: left 0 top 0;
-}
-
-.hotel-card-7 {
-	background: url(img/27.jpg), #fff;
-	background-repeat: no-repeat;
-	background-position: left 0 top 0;
-}
-
-.hotel-card-8 {
-	background: url(img/29.jpg), #fff;
-	background-repeat: no-repeat;
-	background-position: left 0 top 0;
+.hotel-img {
+	position: relative;
+	right: 45px;
+	top: -30px;
+	border-radius: 15px 15px 0 0;
+	width: 374px;
 }
 
 .hotel-margin {
@@ -597,7 +559,7 @@ ul {
 }
 
 .hotel-price {
-	padding-top: 223px;
+	padding-top: 6px;
 	margin: 0 46px 16px 0;
 }
 
@@ -607,6 +569,8 @@ ul {
 
 .hotel-price-digit {
 	font-family: "MullerBold";
+	font-size: 20px;
+	line-height: 20px;
 }
 
 .hotel-description {
