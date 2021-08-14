@@ -528,17 +528,62 @@ ul {
 	background-color: #fff;
 	border-radius: 15px;
 	margin-bottom: 23px;
-	padding-bottom: 30px;
+	padding: 30px 46px 30px 45px;
+
+/*	padding-bottom: 30px;*/
+}
+
+.hotel-card-1 {
+	background: url(img/23.jpg), #fff;
+	background-repeat: no-repeat;
+	background-position: left 0 top 0;
+	background-size: 100%;
+}
+
+.hotel-card-2 {
+	background: url(img/24.png), #fff;
+	background-repeat: no-repeat;
+	background-position: left 0 top 0;
+}
+
+.hotel-card-3 {
+	background: url(img/26.jpg), #fff;
+	background-repeat: no-repeat;
+	background-position: left 0 top 0;
+}
+
+.hotel-card-4 {
+	background: url(img/29-1.jpg), #fff;
+	background-repeat: no-repeat;
+	background-position: left 0 top 0;
+}
+
+.hotel-card-5 {
+	background: url(img/30.jpg), #fff;
+	background-repeat: no-repeat;
+	background-position: left 0 top 0;
+}
+
+.hotel-card-6 {
+	background: url(img/31.jpg), #fff;
+	background-repeat: no-repeat;
+	background-position: left 0 top 0;
+}
+
+.hotel-card-7 {
+	background: url(img/27.jpg), #fff;
+	background-repeat: no-repeat;
+	background-position: left 0 top 0;
+}
+
+.hotel-card-8 {
+	background: url(img/29.jpg), #fff;
+	background-repeat: no-repeat;
+	background-position: left 0 top 0;
 }
 
 .hotel-margin {
 	margin: 0 23px 23px 23px;
-}
-
-.hotel-img {
-	width: 374px;
-	height: 217px;
-	border-radius: 15px 15px 0 0;
 }
 
 .hotel-item-big {
@@ -552,8 +597,8 @@ ul {
 }
 
 .hotel-price {
-	margin: 0 44px 16px 0;
-	padding: 36px 0 0 45px;
+	padding-top: 223px;
+	margin: 0 46px 16px 0;
 }
 
 .hotel-price-ot {
@@ -561,19 +606,20 @@ ul {
 }
 
 .hotel-price-digit {
-	font-weight: bold;
+	font-family: "MullerBold";
 }
 
 .hotel-description {
+	font-family: "MullerRegular";
 	margin: 0 0 16px 0;
-	padding-left: 45px;
 	font-size: 16px;
 	line-height: 16px;
+	font-weight: normal;
+	color: #000;
 }
 
 .hotel-location {
 	margin: 0 0 20px 0;
-	padding-left: 45px;
 	color: #999;
 	font-size: 16px;
 	line-height: 16px;
@@ -588,7 +634,7 @@ ul {
 	padding: 13px 20px;
 	font-size: 16px;
 	cursor: pointer;
-	margin-left: 45px;
+	font-family: "MullerRegular";
 }
 
 .hotel-options {
