@@ -531,7 +531,7 @@ ul {
 }
 
 .hotel-card-wrapper {
-		padding: 30px 46px 30px 45px;
+	padding: 30px 46px 30px 45px;
 }
 
 .hotel-img {
@@ -544,6 +544,7 @@ ul {
 }
 
 .hotel-item-big {
+	padding: 30px 46px 30px 45px;
 	background: url(img/41.jpg);
 	border-radius: 15px;
 	background-repeat: no-repeat;
