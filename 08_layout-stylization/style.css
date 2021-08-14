@@ -639,7 +639,7 @@ ul {
 
 .hotel-options {
 	position: absolute;
-	margin: 373px 69px 27px 54px;
+	padding: 343px 0 0 9px;
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 40px;
