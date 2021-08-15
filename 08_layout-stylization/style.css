@@ -150,9 +150,9 @@ ul {
 	margin-bottom: 70px;
 }
 
-.special-offers-title{
-	margin: 0 0 20px 0;
-	padding-left: 40px;
+.headline-title{
+	margin-left: 40px;
+	margin-bottom: 20px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -171,7 +171,8 @@ ul {
 
 .card {
 	border-radius: 15px;
-	padding: 40px;
+	padding-top: 40px;
+	padding-left: 40px;
 	display: flex;
 	flex-direction: column;
 }
@@ -608,4 +609,316 @@ ul {
 .hotel-options-svg {
 	transform: translateY(4px);
 	margin-left: 5px;
+}
+
+/*want tour*/
+
+.section-want-tour {
+	margin-bottom: 70px;
+}
+
+.want-tour-title {
+	margin: 0;
+	padding: 38px 0 19px 40px;
+	font-size: 40px;
+	line-height: 40px;
+	color: #000;
+	font-weight: normal;
+}
+
+.want-tour-contant {
+	height: 274px;
+	background: #e9e9e9;
+	border-radius: 15px;
+	margin-bottom: 70px;
+}
+
+.want-tour-form-section {
+	width: 1080px;
+	height: 106px;
+	background: #fff;
+	border-radius: 15px;
+	margin: 0 45px 71px 45px;
+}
+
+label {
+	display: block;
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 15px;
+	padding-left: 4px;
+	font-family: "MullerRegular";
+}
+
+.want-tour-form {
+	display: flex;
+	padding: 31px 28px 32px;
+	font-family: "MullerRegular";
+}
+
+.form-select {
+	padding-right: 20px;
+	margin-right: 20px;
+	border-right: 1px solid #e1e1e1;
+	font-family: "MullerRegular";
+}
+
+#form-select-town {
+	border: none;
+	width: 169px;
+	font-family: "MullerRegular";
+}
+
+#form-select-country {
+	border: none;
+	width: 169px;
+	font-family: "MullerRegular";	
+}
+
+#start-date {
+	border: none;
+	font-family: "MullerRegular";
+	width: 142px;
+}
+
+#nights {
+	width: 121px;
+	border: none;
+	border-bottom: 1px solid  #ccc;
+	font-family: "MullerRegular";
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+}
+
+#tourists {
+	width: 121px;
+	border: none;
+	border-bottom: 1px solid  #ccc;
+	font-family: "MullerRegular";
+}
+
+.form-select-btn {
+	width: 108px;
+	height: 42px;
+	border: 1px solid #cc9933;
+	color: #cc9933;
+	border-radius: 10px;
+	background-color: #fff;
+	cursor: pointer;
+	font-family: "MullerRegular";
+}
+
+/*contacts*/
+
+.section-contacts {
+	margin-bottom: 19px;
+}
+
+.contacts-headline-title {
+	margin: 0 0 26px 40px;
+	font-size: 40px;
+	line-height: 40px;
+	color: #333333;
+	font-weight: normal;
+}
+
+.section-contacts-contant {
+	display: flex;
+	width: 1168px;
+	height: 618px;
+	background: #FFFFFF;
+	border-radius: 15px;
+	padding: 44px 44px 46px 46px;
+}
+
+.contacts-address {
+	display: flex;
+	width: 375px;
+	height: 72px;
+	border-bottom: 1px solid #c4c4c4;
+	margin-bottom: 25px;
+}
+
+.contacts-title {
+	margin: 0;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.contacts-address-text {
+	width: 229px;
+	height: 48px;
+	font-size: 16px;
+	line-height: 150%;
+	margin: 0 0 0 83px;
+}
+
+.contacts-tel {
+	display: flex;
+	width: 375px;
+	height: 72px;
+	border-bottom: 1px solid #c4c4c4;
+	margin-bottom: 25px;
+}
+
+.contacts-telephone {
+	display: block;
+	margin-left: 47px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	color: #CC9933;
+}
+
+.contacts-email {
+	display: flex;
+	width: 375px;
+	height: 122px;
+	border-bottom: 1px solid #c4c4c4;
+	margin-bottom: 25px;
+}
+
+.contacts-mail {
+	display: block;
+	font-size: 16px;
+	line-height: 150%;
+	color: #CC9933;
+}
+
+.contacts-mail-text {
+	display: block;
+	font-size: 16px;
+	line-height: 150%;
+	color: #999;
+}
+
+.contacts-email-flex {
+	margin-left: 84px;
+}
+
+.contacts-graf {
+	display: flex;
+	width: 375px;
+	height: 72px;
+	border-bottom: 1px solid #c4c4c4;
+	margin-bottom: 45px;
+}
+
+.contacts-graf-text {
+	width: 214px;
+	height: 48px;
+	font-size: 16px;
+	line-height: 150%;
+	color: #000;
+	margin: 0 0 0 74px;
+}
+
+.contacts-btn {
+	padding: 20px;
+	width: 213px;
+	height: 70px;
+	border: 1px solid #CC9933;
+	cursor: pointer;
+	background-color: #fff;
+	color: #cc9933;
+	border-radius: 10px;
+	font-family: "MullerBold";
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.section-contacts-right {
+	margin: 0 0 0 50px;
+}
+
+.contacts-img {
+	border-radius: 15px;
+}
+
+/*footer*/
+
+.footer {
+	margin-bottom: 20px;
+}
+
+.footer-contant {
+	display: flex;
+	width: 1168px;
+	min-height: 341px;
+	left: 375px;
+	background: url(img/Frame_11.svg), #333;
+	background-repeat: no-repeat;
+	background-position: top 113px left 738px;
+	border-radius: 15px;
+	padding: 44px 51px 46px 52px;
+}
+
+.footer-left {
+	width: 320px;
+	font-size: 16px;
+	line-height: 190%;
+	color: #FFFFFF;
+	margin-right: 102px;
+	transform: translateY(-8px);
+}
+
+.footer-left-text {
+	margin: 0;
+	font-family: "MullerLight";
+}
+
+.footer-left-text:not(:last-child) {
+	margin-bottom: 22px;
+}
+
+.footer-left-text-div {
+	margin-bottom: 49px;
+}
+
+.footer-left-link {
+	font-size: 16px;
+	line-height: 150%;
+	color: #CC9933;
+}
+
+.footer-center {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-address {
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+	margin: 0 0 14px 0;
+}
+
+.footer-tel {
+	font-size: 16px;
+	line-height: 150%;
+	color: #CC9933;
+}
+
+.footer-tel-m {
+	margin-bottom: 15px;
+}
+
+.footer-mail {
+	font-size: 16px;
+	line-height: 150%;
+	color: #CC9933;
+}
+
+.footer-right {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+}
+
+.footer-right-img {
+	margin-bottom: 20px;
 }
