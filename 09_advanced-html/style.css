@@ -617,31 +617,34 @@ ul {
 	margin-bottom: 70px;
 }
 
+.want-tour-contant {
+	height: 274px;
+	background: #e9e9e9;
+	border-radius: 15px;
+	margin-bottom: 70px;
+	padding: 0 45px 71px 45px;
+}
+
 .want-tour-title {
 	margin: 0;
-	padding: 38px 0 19px 40px;
+	padding: 38px 0 19px 0;
 	font-size: 40px;
 	line-height: 40px;
 	color: #000;
 	font-weight: normal;
 }
 
-.want-tour-contant {
-	height: 274px;
-	background: #e9e9e9;
-	border-radius: 15px;
-	margin-bottom: 70px;
-}
 
 .want-tour-form-section {
-	width: 1080px;
-	height: 106px;
+	min-width: 1080px;
+	min-height: 106px;
 	background: #fff;
 	border-radius: 15px;
-	margin: 0 45px 71px 45px;
+	margin: 0;
+	padding: 31px 28px 32px 28px;
 }
 
-label {
+.label {
 	display: block;
 	font-size: 12px;
 	color: #000;
@@ -652,7 +655,6 @@ label {
 
 .want-tour-form {
 	display: flex;
-	padding: 31px 28px 32px;
 	font-family: "MullerRegular";
 }
 
@@ -663,22 +665,29 @@ label {
 	font-family: "MullerRegular";
 }
 
+.form-select-pad {
+	padding-right: 30px;
+}
+
 #form-select-town {
 	border: none;
 	width: 169px;
 	font-family: "MullerRegular";
+	font-size: 16px;
 }
 
 #form-select-country {
 	border: none;
 	width: 169px;
 	font-family: "MullerRegular";	
+	font-size: 16px;
 }
 
 #start-date {
 	border: none;
 	font-family: "MullerRegular";
 	width: 142px;
+	font-size: 16px;
 }
 
 #nights {
@@ -686,6 +695,7 @@ label {
 	border: none;
 	border-bottom: 1px solid  #ccc;
 	font-family: "MullerRegular";
+	font-size: 16px;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -698,17 +708,21 @@ input[type=number]::-webkit-outer-spin-button {
 	border: none;
 	border-bottom: 1px solid  #ccc;
 	font-family: "MullerRegular";
+	font-size: 16px;
 }
 
 .form-select-btn {
 	width: 108px;
-	height: 42px;
+	min-height: 42px;
 	border: 1px solid #cc9933;
 	color: #cc9933;
 	border-radius: 10px;
 	background-color: #fff;
 	cursor: pointer;
 	font-family: "MullerRegular";
+	font-size: 16px;
+	line-height: 16px;
+	padding: 13px 30px;
 }
 
 /*contacts*/
@@ -718,7 +732,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .contacts-headline-title {
-	margin: 0 0 26px 40px;
+	margin: 0 0 26px 0;
+	padding-left: 40px;
 	font-size: 40px;
 	line-height: 40px;
 	color: #333333;
@@ -728,17 +743,21 @@ input[type=number]::-webkit-outer-spin-button {
 .section-contacts-contant {
 	display: flex;
 	width: 1168px;
-	height: 618px;
+	min-height: 618px;
 	background: #FFFFFF;
 	border-radius: 15px;
 	padding: 44px 44px 46px 46px;
 }
 
-.contacts-address {
+.section-contacts-left-list {
+	margin: 0 0 45px 0;
+	padding: 0;
+}
+
+.section-contacts-left-item {
 	display: flex;
-	width: 375px;
-	height: 72px;
 	border-bottom: 1px solid #c4c4c4;
+	padding-bottom: 23px;
 	margin-bottom: 25px;
 }
 
@@ -751,18 +770,10 @@ input[type=number]::-webkit-outer-spin-button {
 
 .contacts-address-text {
 	width: 229px;
-	height: 48px;
+	min-height: 48px;
 	font-size: 16px;
 	line-height: 150%;
 	margin: 0 0 0 83px;
-}
-
-.contacts-tel {
-	display: flex;
-	width: 375px;
-	height: 72px;
-	border-bottom: 1px solid #c4c4c4;
-	margin-bottom: 25px;
 }
 
 .contacts-telephone {
@@ -772,14 +783,6 @@ input[type=number]::-webkit-outer-spin-button {
 	font-size: 16px;
 	line-height: 150%;
 	color: #CC9933;
-}
-
-.contacts-email {
-	display: flex;
-	width: 375px;
-	height: 122px;
-	border-bottom: 1px solid #c4c4c4;
-	margin-bottom: 25px;
 }
 
 .contacts-mail {
@@ -798,14 +801,6 @@ input[type=number]::-webkit-outer-spin-button {
 
 .contacts-email-flex {
 	margin-left: 84px;
-}
-
-.contacts-graf {
-	display: flex;
-	width: 375px;
-	height: 72px;
-	border-bottom: 1px solid #c4c4c4;
-	margin-bottom: 45px;
 }
 
 .contacts-graf-text {
@@ -919,6 +914,6 @@ input[type=number]::-webkit-outer-spin-button {
 	margin-left: auto;
 }
 
-.footer-right-img {
+.footer-right-img:not(:last-child) {
 	margin-bottom: 20px;
 }
