@@ -669,28 +669,28 @@ ul {
 	padding-right: 30px;
 }
 
-#form-select-town {
+.form-select-town {
 	border: none;
 	width: 169px;
 	font-family: "MullerRegular";
 	font-size: 16px;
 }
 
-#form-select-country {
+.form-select-country {
 	border: none;
 	width: 169px;
 	font-family: "MullerRegular";	
 	font-size: 16px;
 }
 
-#start-date {
+.start-date {
 	border: none;
 	font-family: "MullerRegular";
 	width: 142px;
 	font-size: 16px;
 }
 
-#nights {
+.nights {
 	width: 121px;
 	border: none;
 	border-bottom: 1px solid  #ccc;
@@ -703,7 +703,7 @@ input[type=number]::-webkit-outer-spin-button {
    opacity: 1;
 }
 
-#tourists {
+.tourists {
 	width: 121px;
 	border: none;
 	border-bottom: 1px solid  #ccc;
@@ -768,48 +768,39 @@ input[type=number]::-webkit-outer-spin-button {
 	font-weight: bold;
 }
 
-.contacts-address-text {
-	width: 229px;
-	min-height: 48px;
+.contacts-identical {
 	font-size: 16px;
 	line-height: 150%;
-	margin: 0 0 0 83px;
+	margin: 0;
+}
+
+.contacts-address-text {
+	padding-left: 83px;
 }
 
 .contacts-telephone {
 	display: block;
-	margin-left: 47px;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 150%;
+	padding-left: 47px;
 	color: #CC9933;
 }
 
 .contacts-mail {
 	display: block;
-	font-size: 16px;
-	line-height: 150%;
 	color: #CC9933;
 }
 
 .contacts-mail-text {
 	display: block;
-	font-size: 16px;
-	line-height: 150%;
 	color: #999;
 }
 
 .contacts-email-flex {
-	margin-left: 84px;
+	padding-left: 84px;
 }
 
 .contacts-graf-text {
-	width: 214px;
-	height: 48px;
-	font-size: 16px;
-	line-height: 150%;
 	color: #000;
-	margin: 0 0 0 74px;
+	padding-left: 74px;
 }
 
 .contacts-btn {
@@ -827,7 +818,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .section-contacts-right {
-	margin: 0 0 0 50px;
+	margin: 0;
+	padding-left: 50px;
 }
 
 .contacts-img {
@@ -914,6 +906,11 @@ input[type=number]::-webkit-outer-spin-button {
 	margin-left: auto;
 }
 
-.footer-right-img:not(:last-child) {
+.footer-right-list {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-right-item:not(:last-child) {
 	margin-bottom: 20px;
 }
