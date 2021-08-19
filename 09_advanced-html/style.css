@@ -150,9 +150,9 @@ ul {
 	margin-bottom: 70px;
 }
 
-.headline-title{
-	margin-left: 40px;
-	margin-bottom: 20px;
+.special-offers-title{
+	padding-left: 40px;
+	margin: 0 0 20px 0;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -221,6 +221,9 @@ ul {
 }
 
 .special-offers-more-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 103px;
 	min-height: 16px;
 	color: #FFCC66;
@@ -229,8 +232,7 @@ ul {
 }
 
 .svg-more {
-	transform: translateY(5px);
-	margin-left: 5px;
+ 	transform: translateX(5px);
 }
 
 .special-offers-info-2 {
@@ -256,6 +258,9 @@ ul {
 }
 
 .special-offers-more-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 103px;
 	min-height: 16px;
 	color: #FFCC66;
@@ -286,6 +291,9 @@ ul {
 }
 
 .special-offers-more-3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 103px;
 	min-height: 16px;
 	color: #FFCC66;
@@ -314,7 +322,6 @@ ul {
 	font-size: 16px;
 	line-height: 200%;
 	min-height: 180px;
-	margin-bottom: 70px;
 	padding: 11px 0;
 }
 
@@ -388,6 +395,9 @@ ul {
 }
 
 .services-link-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin: 0;
 	font-size: 20px;
 	font-weight: 500;
@@ -396,8 +406,7 @@ ul {
 }
 
 .services-line-svg {
-	transform: translateY(4px);
-	margin-left: 5px;
+	transform: translateX(5px);
 }
 
 .services-text {
@@ -598,6 +607,9 @@ ul {
 }
 
 .hotel-options {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: absolute;
 	padding: 343px 0 0 9px;
 	font-size: 20px;
@@ -607,8 +619,7 @@ ul {
 }
 
 .hotel-options-svg {
-	transform: translateY(4px);
-	margin-left: 5px;
+	transform: translateX(5px);
 }
 
 /*want tour*/
@@ -769,6 +780,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .contacts-identical {
+	display: block;
 	font-size: 16px;
 	line-height: 150%;
 	margin: 0;
@@ -779,18 +791,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .contacts-telephone {
-	display: block;
 	padding-left: 47px;
 	color: #CC9933;
 }
 
 .contacts-mail {
-	display: block;
 	color: #CC9933;
 }
 
 .contacts-mail-text {
-	display: block;
 	color: #999;
 }
 
