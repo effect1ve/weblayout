@@ -871,7 +871,7 @@ input[type=number]::-webkit-outer-spin-button {
 	color: #999;
 }
 
-.contacts-telephone:hover {
+.contacts-tel:hover {
 	font-weight: bold;
 }
 
