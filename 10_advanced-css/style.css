@@ -1,13 +1,14 @@
 @font-face {
-  font-family: 'MullerBold';
+  font-family: 'MullerRegular';
   font-style: normal;
+  font-weight: bold;
   src: local(''),
   		 url('fonts/MullerBold/MullerBold.woff2') format('woff2'),
-  		 url(fonts/MullerBold/MullerBold.woff) format('woff');
+  		 url(fonts/MullerBold/MullerBold.woff) format('woff');		 
 }
-
 @font-face {
-  font-family: 'MullerLight';
+	font-family: 'MullerRegular';
+  font-weight: 100;
   font-style: normal;
   src: local(''),
   		 url('fonts/MullerLight/MullerLight.woff2') format('woff2'),
@@ -17,18 +18,12 @@
 @font-face {
   font-family: 'MullerRegular';
   font-style: normal;
+  font-weight: normal;
   src: local(''),
   		 url('fonts/MullerRegular/MullerRegular.woff2') format('woff2'),
   		 url(fonts/MullerRegular/MullerRegular.woff) format('woff');
 }
 
-@font-face {
-  font-family: 'MullerMedium';
-  font-style: normal;
-  src: local(''),
-  		 url('fonts/MullerMedium/MullerMedium.woff2') format('woff2'),
-  		 url(fonts/MullerMedium/MullerMedium.woff) format('woff');
-}
 
 * {
 	box-sizing: border-box;
@@ -37,6 +32,7 @@
 body {
 	background: #E5E5E5;
 	font-family: 'MullerRegular';
+	font-weight: normal;
 }
 
 a {
@@ -259,7 +255,7 @@ ul {
 	margin: 0 0 47px 0;
 	font-size: 20px;
 	line-height: 20px;
-	font-family: 'MullerLight';
+	font-weight: 100;
 	color: #fff;
 	opacity: 0.8;
 }
@@ -270,7 +266,7 @@ ul {
 	color: #FFCC66;
 	font-size: 16px;
 	line-height: 16px;
-	transition: all .2s ease;
+	transition: all .3s ease;
 }
 
 .special-offers-more:hover{
@@ -300,7 +296,7 @@ ul {
 	line-height: 30px;
 	color: #fff;
 	opacity: 0.8;
-	font-family: 'MullerLight';
+	font-weight: 100;
 }
 
 /*about-us*/
@@ -395,7 +391,7 @@ ul {
 .services-link {
 	display: inline-block;
 	margin: 0;
-	transition: all .2s ease;
+	transition: all .3s ease;
 }
 
 .services-link:hover {
@@ -548,7 +544,11 @@ ul {
 	min-height: 440px;
 	background-color: var(--background-color);
 	border-radius: 15px;
-	margin-bottom: 23px;
+	margin: 0 23px 23px 0;
+}
+
+.hotel-item:nth-child(3n) {
+	margin-right: 0;
 }
 
 .hotel-card-wrapper {
@@ -558,10 +558,6 @@ ul {
 .hotel-img {
 	border-radius: 15px 15px 0 0;
 	width: 100%;
-}
-
-.hotel-margin {
-	margin: 0 23px 23px 23px;
 }
 
 .hotel-item-big {
@@ -584,7 +580,7 @@ ul {
 }
 
 .hotel-price-digit {
-	font-family: "MullerBold";
+	font-weight: bold;
 	font-size: 20px;
 	line-height: 20px;
 }
@@ -852,7 +848,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .contacts-tel {
 	color: var(--color);
-	transition: font-weight .2s ease;
+	transition: font-weight .3s ease;
 }
 
 .contacts-text {
@@ -863,7 +859,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .contacts-mail {
 	color: var(--color);
-	transition: font-weight .2s ease;
+	transition: font-weight .3s ease;
 }
 
 .contacts-mail-text {
@@ -888,7 +884,7 @@ input[type=number]::-webkit-outer-spin-button {
 	background-color: var(--background-color);
 	color: var(--color);
 	border-radius: 10px;
-	font-family: "MullerBold";
+	font-weight: bold;
 	font-size: 16px;
 	line-height: 16px;
 	transition: transform .3s ease, color .3s ease, background-color .3s ease;
@@ -945,7 +941,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .footer-left-text {
 	margin: 0;
-	font-family: "MullerLight";
+	font-weight: 100;
 }
 
 .footer-left-text:not(:last-child) {
