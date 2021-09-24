@@ -78,11 +78,9 @@ body {
 
 .header__container {
 	display: flex;
-	max-width: 1920px;
-	padding: 0 75px;
 	flex-direction: row;
 	align-items: center;
-	max-height: 100px;
+	height: 100px;
 	box-shadow: 0px 40px 40px -30px rgb(0 0 0 / 10%);
 }
 
@@ -121,7 +119,7 @@ body {
 	color: #333;
 	font-size: 18px;
 	line-height: 22px;
-	font-weight: 700;
+	font-weight: 600;
 	transition: color .3s ease;
 }
 
@@ -203,7 +201,6 @@ body {
 .hero__container {
 	background: url(../img/hero_1.png), #333;
 	min-height: 620px;
-	width: 1770px;
 	padding: 100px 80px;
 }
 
@@ -285,7 +282,7 @@ body {
 	display: flex;
 }
 
-.about__more-img {
+.about__more-build {
 	display: flex;
 	min-width: 868px;
 	height: 622px;
@@ -296,30 +293,32 @@ body {
 	margin-right: 32px;
 }
 
-.about__more-img:after {
-	content: '';
+.about__more-build_info {
+	display: flex;
+	align-items: center;
 	position: absolute;
-	width: 868px;
-	height: 196px;
-	background: rgba(0, 0, 0, 0.5);
-	top: 426px;
+	bottom: 0;
 	left: 0;
+	width: 868px;
+	min-height: 196px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 50px 50px;
 }
 
-.about__more-img-text {
-	padding-top: 426px;
+.about__more-build-text {
+	display: inline-block;
 	font-size: 16px;
 	line-height: 32px;
 	letter-spacing: .01em;
 	color: #fff;
 	width: 454px;
 	font-weight: 600;
-	z-index: 1;
 	margin: 0;
+	margin-right: 139px;
 }
 
 .about__more_btn {
-	position: absolute;
+	display: inline-block;
 	width: 175px;
 	height: 60px;
 	border: 3px solid #ff9900;
@@ -328,9 +327,6 @@ body {
 	color: #fff;
 	font-size: 16px;
 	line-height: 20px;
-	top: 494px;
-	left: 643px;
-	z-index: 1;
 	transition: background-color .3s ease, color .3s ease;
 }
 
@@ -344,7 +340,7 @@ body {
 	color: #fff;
 }
 
-.about__more-icons-block {
+.about__more-gears-block {
 	display: flex;
 	width: 870px;
 	min-height: 295px;
@@ -360,11 +356,11 @@ body {
 	transform: translateY(-2px);
 }
 
-.about__more-icons_flex {
+.about__more-gears_flex {
 	width: 452px;
 }
 
-.about__more-icons-title {
+.about__more-gears-title {
 	font-size: 24px;
 	line-height: 29px;
 	font-weight: bold;
@@ -373,14 +369,14 @@ body {
 	margin-bottom: 8px;
 }
 
-.about__more-icons-text {
+.about__more-gears-text {
 	font-size: 16px;
 	line-height: 32px;
 	color: #333;
 	margin: 0;
 }
 
-.about__more-icons-block:not(:last-child) {
+.about__more-gears-block:not(:last-child) {
 	margin-bottom: 26px;
 }
 
@@ -399,11 +395,15 @@ body {
 	margin-bottom: 46px;
 }
 
-.do__links {
+.do__buttons {
 	margin-bottom: 45px;
 }
 
-.do__link {
+.do__button {
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 22px;
@@ -412,19 +412,19 @@ body {
 	transition: color .3s ease, box-shadow .3s ease;
 }
 
-.do__link:hover {
+.do__button:hover {
 	box-shadow: 
 	inset .1em -0.1em #ff9900,
 	inset -.1em 0.1em  #ff9900;
 	color: #333;
 }
 
-.do__link:active {
+.do__button:active {
 	box-shadow: none;
 	color: #e1670e;
 }
 
-.do__link:not(:last-child) {
+.do__button:not(:last-child) {
 	margin-right: 73px;
 }
 
