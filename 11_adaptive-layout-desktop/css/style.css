@@ -74,10 +74,8 @@ body {
 	flex-direction: row;
 	align-items: center;
 	min-height: 100px;
-}
-
-.header__logo {
-	padding: 14px 0;
+	padding-top: 14px;
+	padding-bottom: 14px;
 }
 
 .header__img {
@@ -108,6 +106,7 @@ body {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	margin-right: 85px;
 }
 
 .header__item-link {
@@ -118,7 +117,7 @@ body {
 	transition: color .3s ease;
 }
 
-.header__search_btn {
+.header__search {
 	display: inline-block;
 	border: none;
 	background: none;
@@ -165,7 +164,11 @@ body {
 	padding-bottom: 6px;
 }
 
-.header__item:nth-child(1) {
+.header__item:not(:last-child) {
+	margin-right: 85px;
+}
+
+/*.header__item:nth-child(1) {
 	margin-right: 85px;
 }
 
@@ -179,7 +182,7 @@ body {
 
 .header__item:nth-child(4) {
 	margin-right: 84px;
-}
+}*/
 
 /*.header__item:nth-child(5) {
 	margin-right: 71px;
@@ -187,7 +190,7 @@ body {
 
 /*hero*/
 
-.section-hero {
+.hero {
 	margin: 0;
 	margin-bottom: 100px;
 }
@@ -246,7 +249,7 @@ body {
 
 /*about*/
 
-.section-about {
+.about {
 	margin-bottom: 100px;
 }
 
@@ -287,7 +290,7 @@ body {
 	margin-right: 32px;
 }
 
-.about__more-build_info {
+.about__more-build-info {
 	display: flex;
 	align-items: center;
 	position: absolute;
@@ -311,7 +314,7 @@ body {
 	margin-right: 139px;
 }
 
-.about__more_btn {
+.about__more-btn {
 	display: inline-block;
 	width: 175px;
 	height: 60px;
@@ -342,15 +345,15 @@ body {
 	border: 1px solid #CACACA;
 }
 
-.about__more_svg {
+.about__more-svg {
 	margin-right: 50px;
 }
 
-.about__more_svg-1 {
+.about__more-svg-1 {
 	transform: translateY(-2px);
 }
 
-.about__more-gears_flex {
+.about__more-gears-flex {
 	width: 452px;
 }
 
@@ -376,7 +379,7 @@ body {
 
 /*do*/
 
-.section-do {
+.do {
 	margin-bottom: 100px;
 }
 
@@ -504,7 +507,7 @@ body {
 
 /*questions*/
 
-.section-questions {
+.questions {
 	margin-bottom: 100px;
 }
 
