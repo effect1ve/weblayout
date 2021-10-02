@@ -75,7 +75,7 @@ body {
 	align-items: center;
 	min-height: 100px;
 	padding-top: 14px;
-	padding-bottom: 14px;
+	padding-bottom: 10px;
 }
 
 .header__img {
@@ -229,12 +229,11 @@ body {
 	align-items: center;
 	justify-content: center;
 	color: #fff;
-	padding: 24px 36px;
+	padding: 25px 36px;
 	width: 280px;
 	min-height: 78px;
 	background-color: #ff9900;
 	font-size: 24px;
-	line-height: 29px;
 	font-weight: 600;
 	transition: background-color .3s ease;
 }
@@ -263,6 +262,8 @@ body {
 .about__title {
 	margin: 0;
 	margin-bottom: 20px;
+	font-size: 50px;
+	line-height: 60px;
 }
 
 .about__text {
@@ -393,20 +394,21 @@ body {
 }
 
 .do__buttons {
-	margin-bottom: 45px;
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 46px;
 }
 
 .do__button {
-	border: none;
-	outline: none;
-	background: none;
 	cursor: pointer;
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 22px;
 	color: #e1670e;
-	padding: 3px;
 	transition: color .3s ease, box-shadow .3s ease;
+	margin-right: 86px;
 }
 
 .do__button:hover {
@@ -419,10 +421,6 @@ body {
 .do__button:active {
 	box-shadow: none;
 	color: #e1670e;
-}
-
-.do__button:not(:last-child) {
-	margin-right: 73px;
 }
 
 .do__content {
@@ -449,11 +447,12 @@ body {
 	color: #333;
 	width: 758px;
 	margin: 0;
-	margin-bottom: 70px;
+	margin-bottom: 51px;
 	letter-spacing: .001em;
 }
 
 .do__left-btn-1 {
+	display: inline-block;
 	padding: 19px 38px;
 	min-height: 60px;
 	background: #ff9900;
@@ -498,11 +497,11 @@ body {
 }
 
 .do__right {
-	background: url(../img/do_1.png), #998a8a;
+	background: #998a8a;
 	width: 870px;
 	height: 460px;
 	transform: translateY(9px) translateX(1px);
-	background-size: contain;
+/*	background-size: contain;*/
 }
 
 /*questions*/
@@ -556,25 +555,25 @@ body {
 
 .questions__1 {
 	padding-top: 41px;
-	padding-bottom: 25px;
+	padding-bottom: 28px;
 }
 
 .questions__2 {
-	padding-top: 34px;
+	padding-top: 32px;
 }
 
 .questions__3 {
-	padding-top: 18px;
+	padding-top: 19px;
 	padding-bottom: 28px;
 }
 
 .questions__4 {
-	padding-top: 30px;
+	padding-top: 31px;
 }
 
 .questions__5 {
 	padding-top: 22px;
-	padding-bottom: 28px;
+	padding-bottom: 27px;
 }
 
 /*footer*/
@@ -592,7 +591,7 @@ body {
 }
 
 .footer__left-img {
-	margin-bottom: 17px;
+	margin-bottom: 15px;
 	transition: box-shadow .3s ease;
 }
 
