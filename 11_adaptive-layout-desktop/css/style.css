@@ -381,7 +381,7 @@ body {
 /*do*/
 
 .do {
-	margin-bottom: 100px;
+	margin-bottom: 103px;
 }
 
 .do__container {
@@ -390,7 +390,7 @@ body {
 
 .do__title {
 	margin: 0;
-	margin-bottom: 46px;
+	margin-bottom: 52px;
 }
 
 .do__list {
@@ -447,7 +447,7 @@ body {
 	color: #333;
 	width: 758px;
 	margin: 0;
-	margin-bottom: 51px;
+	margin-bottom: 55px;
 	letter-spacing: .001em;
 }
 
@@ -461,7 +461,7 @@ body {
 	line-height: 20px;
 	text-align: center;
 	color: #fff;
-	margin-right: 30px;
+	margin-right: 27px;
 	transition: background .3s ease;
 }
 
@@ -512,7 +512,7 @@ body {
 
 .questions__title {
 	margin: 0;
-	margin-bottom: 32px;
+	margin-bottom: 43px;
 }
 
 .questions__list {
@@ -559,16 +559,17 @@ body {
 }
 
 .questions__1 {
-	padding-top: 41px;
+	padding-top: 31px;
 	padding-bottom: 28px;
 }
 
 .questions__2 {
 	padding-top: 32px;
+	padding-bottom: 28px;
 }
 
 .questions__3 {
-	padding-top: 19px;
+	padding-top: 30px;
 	padding-bottom: 28px;
 }
 
@@ -587,16 +588,17 @@ body {
 	display: flex;
 	max-width: 1920px;
 	min-height: 594px;
-	padding: 50px 75px;
+	padding: 50px 73px;
 	background-color: #222;
 }
 
 .footer__left {
-	margin-right: 348px;
+	margin-right: 346px;
+	padding-left: 2px;
 }
 
 .footer__left-img {
-	margin-bottom: 15px;
+	margin-bottom: 17px;
 	transition: box-shadow .3s ease;
 }
 
@@ -727,15 +729,16 @@ body {
 	position: relative;
 	padding: 0 0 0 21px;
 	cursor: pointer;
+	top: -4px;
 }
 
 .footer__label-checkbox:before {
 	content: '';
 	position: absolute;
-	top: 1px;
+	top: 0;
 	left: 0;
-	width: 14px;
-	height: 14px;
+	width: 17px;
+	height: 15px;
 	border: 1px solid #cacaca;
 	transform: translateY(1px);
 }
@@ -743,7 +746,7 @@ body {
 .footer__checkbox:checked + .footer__label-checkbox:after {
 	content: '';
 	position: absolute;
-	top: 1px;
+	top: 0;
 	left: 0;
 	width: 14px;
 	height: 14px;
@@ -770,6 +773,6 @@ body {
 	color: #cacaca;
 	font-weight: 400;
 	margin: 0;
-	padding-top: 87px;
+	padding-top: 92px;
 }
 
