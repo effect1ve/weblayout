@@ -381,11 +381,11 @@ body {
 /*do*/
 
 .do {
-	margin-bottom: 103px;
+	margin-bottom: 100px;
 }
 
 .do__container {
-	height: 643px;
+	min-height: 643px;
 }
 
 .do__title {
@@ -402,12 +402,10 @@ body {
 }
 
 .do__item {
-	cursor: pointer;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 22px;
-	color: #e1670e;
 	transition: color .3s ease, box-shadow .3s ease;
+}
+
+.do__item:not(:last-child) {
 	margin-right: 86px;
 }
 
@@ -421,6 +419,16 @@ body {
 .do__item:active {
 	box-shadow: none;
 	color: #e1670e;
+}
+
+.do__item_btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #333;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
 }
 
 .do__content {
@@ -534,9 +542,6 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 39px 0;
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 32px;
 	color: #333;
 	text-align: center;
 	cursor: pointer;
@@ -544,6 +549,9 @@ body {
 
 .question__item-title {
 	margin: 0;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
 }
 
 .question:hover .questions__svg  {
@@ -584,13 +592,17 @@ body {
 
 /*footer*/
 
+.footer {
+	background-color: #222;
+	padding: 50px 73px;
+	max-width: none;
+}
+
 .footer__container {
 	display: flex;
-	max-width: 1920px;
-	min-height: 594px;
-	padding: 50px 73px;
-	background-color: #222;
+	
 }
+
 
 .footer__left {
 	margin-right: 346px;
@@ -617,6 +629,7 @@ body {
 	padding: 0;
 	margin-bottom: 90px;
 	list-style-type: none;
+	min-width: 257px;
 }
 
 .footer__left-link {
@@ -638,11 +651,16 @@ body {
 
 .footer__left-icons {
 	display: flex;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
 }
 
-.footer__left-icon-link {
+.footer__left-icons-item:not(:last-child) {
 	margin-right: 25px;
 }
+
 
 .footer__icon path {
 	transition: fill .3s ease;
@@ -699,8 +717,7 @@ body {
 }
 
 .footer__form-btn {
-	width: 269px;
-	height: 60px;
+	padding: 17px 52px;
 	color: #fff;
 	font-size: 15px;
 	font-weight: 700;
@@ -737,7 +754,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 17px;
+	width: 15px;
 	height: 15px;
 	border: 1px solid #cacaca;
 	transform: translateY(1px);
