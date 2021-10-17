@@ -364,10 +364,6 @@ body {
 	margin-bottom: 100px;
 }
 
-.do__container {
-	min-height: 643px;
-}
-
 .do__title {
 	margin: 0;
 	margin-bottom: 47px;
@@ -401,7 +397,7 @@ body {
 	color: #e1670e;
 }
 
-.do__item_btn {
+.do__btn {
 	background: none;
 	border: none;
 	cursor: pointer;
@@ -418,14 +414,6 @@ body {
 	background-size: 870px 460px;
 	background-repeat: no-repeat;
 }
-
-/*.do__right {
-	background: url(../img/do_1.png), #998a8a;
-	width: 870px;
-	height: 460px;
-	transform: translateY(9px) translateX(1px);
-	background-size: contain;
-}*/
 
 .do__content-title {
 	font-size: 24px;
