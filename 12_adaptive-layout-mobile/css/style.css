@@ -829,7 +829,7 @@ body {
 }
 
 .footer__right-text {
-	width: 363px;
+	width: 100%;
 	min-height: 320px;
 	font-size: 16px;
 	line-height: 32px;
@@ -842,33 +842,35 @@ body {
 
 @media (max-width: 1800px) {
 
+.about__more {
+	flex-wrap: nowrap;
+}
+
 .about__more-build {
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.31) 100%), url(../img/about1024.jpg), #333;
-	margin: 0;
 	margin-bottom: 32px;
 	padding: 0;
-	min-height: 640px;
+	min-height: 622px;
 	width: 924px;
 	background-size: cover;
 }
 
 .about__more-build-info {
 	position: absolute;
-	width: 924px;
-	min-height: 196px;
+	width: 100%;
 	bottom: 0;
-}
-
-.about__more-build-text {
-	margin-right: 195px;
 }
 
 .about__more-btn {
 	padding: 18px 36px;
 }
 
+.about__more-gears {
+	overflow: hidden;
+}
+
 .about__more-gears-block {
-	width: 924px;
+	width: 100%;
 	padding: 65px 75px;
 }
 
@@ -948,6 +950,10 @@ body {
 	min-height: 263px;
 	width: 925px;
 	margin-bottom: 54px;
+}
+
+.about__more {
+	flex-wrap: wrap;
 }
 
 .about__more-build {
