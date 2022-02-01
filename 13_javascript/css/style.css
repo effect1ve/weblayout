@@ -248,6 +248,10 @@ input::-webkit-search-results-decoration { display: none; }
 	display: none;
 }
 
+.menu {
+	display: none;
+}
+
 
 /*hero*/
 
