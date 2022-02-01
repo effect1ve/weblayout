@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="Libs/jquery-ui.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Евклид - проектные системы</title>
@@ -15,6 +15,12 @@
       <button class="burger" id="burger">
         <svg width="30" height="23" viewBox="0 0 30 23" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="30" height="3" fill="#333333"/>
           <rect y="10" width="30" height="3" fill="#333333"/><rect y="20" width="30" height="3" fill="#333333"/>
+        </svg>
+      </button>
+      <button class="burger-close" id="burger-close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8.95386" y="7.30432" width="11.6645" height="2.33291" transform="rotate(45 8.95386 7.30432)" fill="#333333"/>
+          <rect x="7.30432" y="15.5524" width="11.6645" height="2.33291" transform="rotate(-45 7.30432 15.5524)" fill="#333333"/>
         </svg>
       </button>
       <div id="menu" class="menu is-active">
@@ -79,10 +85,15 @@
         </ul>
       </nav>
       <form action="#" class="form">
-        <button class="header__search header__item-link">
-          <input class="header__search-input" type="search" placeholder="Что будем искать?">
-          <svg class="header__item-link-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333"/>
+        <button class="header__search header__item-link" id="search">
+          <input id="search-input" class="header__search-input" type="search" placeholder="Что будем искать?">
+          <svg id="search-svg" class="header__item-link-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="7.56126" height="1.89031" transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6062 17.3762)" fill="#333333"/>
             <path d="M20.9303 10.7726C20.9303 16.1533 16.4855 20.5452 10.9652 20.5452C5.44478 20.5452 1 16.1533 1 10.7726C1 5.39198 5.44478 1 10.9652 1C16.4855 1 20.9303 5.39198 20.9303 10.7726Z" stroke="#333333" stroke-width="2"/>
+          </svg>
+          <svg class="header__item-link-svg-search-close" id="search-close" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8.95386" y="7.30435" width="11.6645" height="2.33291" transform="rotate(45 8.95386 7.30435)" fill="#999999"/>
+            <rect x="7.30432" y="15.5524" width="11.6645" height="2.33291" transform="rotate(-45 7.30432 15.5524)" fill="#999999"/>
+            <circle cx="12" cy="12" r="11" stroke="#999999" stroke-width="2"/>
           </svg>
         </button>
     </form>
@@ -407,9 +418,9 @@
       </div>
     </div>
   </footer>   
-  <script src="swiper-bundle.min.js"></script>
-  <script src="jquery.js"></script>
-  <script src="jquery-ui.js"></script>
-  <script src="script.js"></script> 
+  <script src="Libs/swiper-bundle.min.js"></script>
+  <script src="Libs/jquery.js"></script>
+  <script src="Libs/jquery-ui.js"></script>
+  <script src="js/script.js"></script> 
 </body>
 </html>
