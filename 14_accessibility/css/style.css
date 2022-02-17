@@ -80,6 +80,10 @@ body {
 	margin-right: 5vw;
 }
 
+.header__logo:focus {
+	outline: 1px solid #ff9900;
+}
+
 .header__img {
 	width: 100%;
 	transition: box-shadow .3s ease;
@@ -89,6 +93,10 @@ body {
   box-shadow:
 	 inset 0 -0.1em #ff6e14,
 	 inset 0 -0.3em  white;
+}
+
+.header__img:focus {
+	outline: 2px solid #FF9900;
 }
 
 .header__img:active {
@@ -183,6 +191,10 @@ input::-webkit-search-results-decoration { display: none; }
 
 .header__item-link:hover {
 	color: #E1670E;
+}
+
+.header__item-link:focus {
+	outline: 2px solid #FF9900;
 }
 
 .header__item-link:active {
@@ -351,6 +363,12 @@ input::-webkit-search-results-decoration { display: none; }
 	background-color: #ff9900;
 }
 
+.hero__btn:focus {
+	background: rgba(255, 153, 0, 0.7);
+	border: none;
+	outline: none;
+}
+
 /*about*/
 
 .about__more-svg-320 {
@@ -442,12 +460,17 @@ input::-webkit-search-results-decoration { display: none; }
 	transition: background-color .3s ease, color .3s ease;
 }
 
-.about__more_btn:hover {
+.about__more-btn:hover {
 	background-color: #ff9900;
-	color: #333;
+	color: #FFF;
 }
 
-.about__more_btn:active {
+.about__more-btn:focus {
+	background: #FF9900;
+	outline: none;
+}
+
+.about__more-btn:active {
 	background: none;
 	color: #fff;
 }
@@ -553,7 +576,10 @@ input::-webkit-search-results-decoration { display: none; }
 	white-space: nowrap;
 }
 
-
+.do__btn:focus {
+	outline: 2px solid #FF9900;
+	box-sizing: border-box;
+}
 
 .do__content {
 	display:none;
@@ -638,11 +664,16 @@ input::-webkit-search-results-decoration { display: none; }
 }
 
 .do__content-btn-1:hover {
-	background: #E1670E;
+	background: #F7B045;
 }
 
 .do__content-btn-1:active {
-	background: #ff9900;
+	background: #E1670E;
+}
+
+.do__content-btn-1:focus {
+	background: #F7B045;
+	outline: none;
 }
 
 .do__content-btn-2 {
@@ -658,14 +689,20 @@ input::-webkit-search-results-decoration { display: none; }
 	transition: background .3s ease, color .3s ease;
 }
 
+.do__content-btn-2:focus {
+	background: #666;
+	color: #fff;
+	outline: none;
+}
+
 .do__content-btn-2:hover {
-	background: #333;
+	background: #666;
 	color: #fff;
 }
 
 .do__content-btn-2:active {
-	background: #fff;
-	color: #333;
+	background: #000;
+	color: #fff;
 }
 
 /*questions*/
@@ -700,9 +737,18 @@ input::-webkit-search-results-decoration { display: none; }
     border-color: #ff9900;
 }
 
+.questions__item:active {
+    border-color: #cacaca;
+}
+
 .questions__item:hover, 
 .questions__item:hover + .questions__item {
     border-top-color: #ff9900;
+}
+
+.questions__item:active, 
+.questions__item:active + .questions__item {
+    border-top-color: #cacaca;
 }
 
 .question {
@@ -731,10 +777,6 @@ input::-webkit-search-results-decoration { display: none; }
 	line-height: 32px;
 }
 
-/*.question:hover .questions__svg  {
-	transform: rotate(45deg);
-}*/
-
 .question:active .questions__svg  {
 	transform: rotate(45deg);
 	transition: transform .5s;
@@ -761,8 +803,20 @@ input::-webkit-search-results-decoration { display: none; }
 	fill: #fff;
 }
 
+.question:active svg ellipse {
+	fill: #ececec;
+}
+
+.question:active svg path {
+	fill: #666;
+}
+
 .question:hover {
 	color: #ff9900;
+}
+
+.question:active {
+	color: #333;
 }
 
 .ui-accordion .ui-accordion-header {
@@ -845,6 +899,10 @@ input::-webkit-search-results-decoration { display: none; }
 	  box-shadow: none;
 }
 
+.footer__left-logo:focus {
+	  outline: 1px solid #ff9900;
+}
+
 .footer__left-list {
 	margin: 0;
 	padding: 0;
@@ -870,6 +928,10 @@ input::-webkit-search-results-decoration { display: none; }
 	color: #cacaca;
 }
 
+.footer__left-link:focus {
+	outline: 1px solid #ff9900;
+}
+
 .footer__left-icons {
 	display: flex;
 	margin: 0;
@@ -893,6 +955,11 @@ input::-webkit-search-results-decoration { display: none; }
 
 .footer__icon:active path {
 	fill: #7c7c7c;
+}
+
+.footer__left-icon-link:focus {
+		outline: 1px solid #ff9900;
+
 }
 
 .footer__center {
@@ -971,6 +1038,11 @@ input::-webkit-search-results-decoration { display: none; }
 	left: 0;
 }
 
+.footer__label-checkbox:focus {
+	outline: 1px solid #ff9900;
+}
+
+
 .footer__label-checkbox:before {
 	content: '';
 	position: absolute;
@@ -1002,6 +1074,10 @@ input::-webkit-search-results-decoration { display: none; }
 	font-weight: 400;
 	color: #cacaca;
 	font-family: Montserrat, serif;
+}
+
+.footer__label-checkbox:focus {
+	outline: 1px solid #ff9900;
 }
 
 .footer__right-text {
