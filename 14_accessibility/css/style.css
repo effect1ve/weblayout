@@ -819,6 +819,19 @@ input::-webkit-search-results-decoration { display: none; }
 	color: #333;
 }
 
+.question:focus svg ellipse {
+	fill: #FF9900;
+}
+
+.question:focus svg path {
+	fill: #fff;
+}
+
+.question:focus {
+	outline: 1px solid #ff9900;
+	color: #ff9900;
+}
+
 .ui-accordion .ui-accordion-header {
     display: flex;
     justify-content: space-between;
@@ -1038,7 +1051,7 @@ input::-webkit-search-results-decoration { display: none; }
 	left: 0;
 }
 
-.footer__label-checkbox:focus {
+.footer__checkbox:focus + .footer__label-checkbox {
 	outline: 1px solid #ff9900;
 }
 
@@ -1074,10 +1087,6 @@ input::-webkit-search-results-decoration { display: none; }
 	font-weight: 400;
 	color: #cacaca;
 	font-family: Montserrat, serif;
-}
-
-.footer__label-checkbox:focus {
-	outline: 1px solid #ff9900;
 }
 
 .footer__right-text {
