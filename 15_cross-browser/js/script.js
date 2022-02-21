@@ -55,6 +55,7 @@ document.querySelectorAll('.do__btn').forEach(function(tabsBtn) {
  	document.querySelector('#search-input').classList.add('active')
  	document.querySelector('#search-close').classList.add('active')
  	document.querySelector('#search-svg').classList.add('transform')
+ 	document.querySelector('#search').blur();
  })
 
   document.querySelector('#search-close').addEventListener('click', function(){
