@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.simplebar-container {
+  background-color: #fff;
+  max-width: 400px;
+}
+.simplebar {
+  max-height: 300px;
+  padding: 20px 30px 0 30px;
+}
+
+.simplebar .simplebar-track.simplebar-vertical {
+  background-color: #fff;
+  width: 6px;
+  border-radius: 5px;
+}
+.simplebar .simplebar-scrollbar {
+  width: 6px;
+  background-color: #ccb26e;
+  border-radius: 5px;
+}
+
+.simplebar-scrollbar.simplebar-visible:before {
+  opacity: 0 !important;
+}

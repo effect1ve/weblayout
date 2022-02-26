@@ -1,0 +1,69 @@
+
+body {
+  padding: 20px;
+  }
+
+.text {
+ width: 268px;
+ font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 170%;
+}
+
+.tooltip-container {
+  position: relative;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.tooltip {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #BCBCBC;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+.tooltip:hover,
+.tooltip:focus{
+  background: #CCB26E;
+}
+
+.tooltip-2:before {
+  content: "Глава 2, страница";
+  position: absolute;
+  transform: translate(calc(-100%/2 + 10px), calc(-100% - 10px));
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  display: none;
+  word-wrap: break-word;
+}
+
+.tooltip-2:after {
+   content: "";
+  position: absolute;
+  top: -80%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid transparent; 
+  border-top: 10px solid #333; 
+  display: none;
+}
+
+.tooltip-2:hover:before,
+.tooltip-2:hover:after,
+.tooltip-2:focus:before,
+.tooltip-2:focus:after {
+  display: inline-block;
+}
