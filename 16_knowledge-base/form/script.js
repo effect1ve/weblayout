@@ -23,11 +23,11 @@ new window.JustValidate('.form', {
     },
    messages: {
          email: {
-           required: "Введите правильный e-mail"
+           required: "Укажите ваш e-mail"
          },
-         name: "Не правильно введено поле",
+         name: "Как вас зовут?",
          phone: {
-           required: "Не правильно введено поле",
+           required: "Укажите ваш телефон",
            function: "Не достаточно количество символов"
          }
        }

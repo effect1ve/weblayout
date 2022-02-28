@@ -37,14 +37,15 @@ line-height: 170%;
 }
 
 .tooltip-2:before {
-  content: "Глава 2, страница";
+  content: "Глава 2, страница 176";
   position: absolute;
   transform: translate(calc(-100%/2 + 10px), calc(-100% - 10px));
-  width: 200px;
+  width: max-content;
+  max-width: 163px;
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 7px 15px 8px 15px;
   box-sizing: border-box;
   display: none;
   word-wrap: break-word;

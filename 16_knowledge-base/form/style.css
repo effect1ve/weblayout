@@ -37,8 +37,8 @@
 
 .js-validate-error-label {
 	position: absolute;
-	color: white !important;
-	right: 0;
+	color: #ff5c00 !important;
+	left: 0;
 	transform: translateY(-111px);
-	padding-right: 40px;
+	padding-left: 40px;
 }

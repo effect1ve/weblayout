@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const choices = new Choices(selector, {
     searchEnabled: false,
+    itemSelectText: '',
     classNames: {
       containerOuter: 'choices header_choices',
      },
