@@ -59,15 +59,16 @@ p {
 /*header*/
 
 .header {
-	background: #3F2AFF;
-	font-size: 18px;
 	padding-top: 29px;
 	padding-bottom: 23px;
+	background: #3F2AFF;
 }
+
 
 .header__container {
 	display: flex;
 	justify-content: space-between;
+	font-size: 18px;
 }
 
 .header__list {
@@ -95,10 +96,19 @@ p {
 	display: none;
 }
 
+.header__menu {
+	min-height: 0;
+}
+
 .menu {
 	display: none;
-	width: 132px;
-	height: 285px;
+	position: absolute;
+	background: #3F2AFF;
+	padding-left: 15px;
+	width: 147px;
+	height: 290px;
+	left: 0;
+	z-index: 1;
 }
 
 .menu__list {
@@ -126,13 +136,20 @@ p {
 }
 
 .burger-close {
-	transform: translateY(-6px);
 	padding: 0;
 	display: none;
 	border: none;
 	background: none;
-	width: 7%;
-	height: 7%;
+	width: 9%;
+	height: 100%;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke: #fff;
+  fill: #fff;
 }
 
 /*hero*/
@@ -142,10 +159,6 @@ p {
 	position: relative;
 	padding-bottom: 8px;
 }
-
-/*.hero__row {
-	--bs-gutter-x: 0;
-}*/
 
 .hero__left {
 	padding-top: 130px;

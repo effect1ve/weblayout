@@ -10,7 +10,7 @@
 	.hero__right {
 		position: absolute;
 	   bottom: 20%;
-	   left: 60%;
+	   left: 40%;
 	}
 
 	.about__pic {
@@ -22,9 +22,13 @@
 		height: 90%;
 	}
 
+	.teachers__img {
+		max-width: 100%;
+	}
+
 	.teachers__col {
 		flex: 0 0 50%;
-		padding-left: 7%;
+/*		padding-left: 7%;*/
 	}
 
 	.teachers__marg {
@@ -41,7 +45,13 @@
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
+	.hero__right {
+		left: 65%;
+	}
+}
+
+@media (max-width: 990px) {
 
 	.hero {
 		padding-bottom: 135px;
@@ -257,6 +267,8 @@
 	}
 
 	.header__container {
+		max-height: 22px;
+		min-height: 22px;
 		justify-content: space-between;
 	}
 
@@ -289,6 +301,13 @@
 	.header__container {
 		padding-left: 15px;
 		padding-top: 3px;
+	}
+
+	.menu__item {
+	margin: 22px 0;
+}
+	.menu {
+		height: 250px;
 	}
 
 	.hero {
@@ -390,5 +409,6 @@
 	.courses__descr-mad {
 		margin-bottom: 23px;
 	}
+
 
 }
