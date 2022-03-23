@@ -260,6 +260,12 @@
 	}
 }
 
+@media (max-width: 575px) {
+	.courses__content {
+		max-width: 100vw;
+	}
+}
+
 @media (max-width: 475px) {
 
 	.header__img {
@@ -306,9 +312,6 @@
 	.menu__item {
 	margin: 22px 0;
 }
-	.menu {
-		height: 250px;
-	}
 
 	.hero {
 		padding-bottom: 50px;
@@ -385,6 +388,7 @@
 	}
 
 	.teachers__col {
+		flex: 0 0 100%;
 		margin-bottom: 23px;
 	}
 

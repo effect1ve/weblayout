@@ -103,12 +103,12 @@ p {
 .menu {
 	display: none;
 	position: absolute;
-	background: #3F2AFF;
+	background: #2F2C45;
 	padding-left: 15px;
-	width: 147px;
-	height: 290px;
+	width: 100vw;
+	height: 100vh;
 	left: 0;
-	z-index: 1;
+	z-index: 10;
 }
 
 .menu__list {
@@ -116,6 +116,7 @@ p {
 	align-items: flex-start;
 	justify-content: flex-start;
 	padding: 0px;
+	background: #2F2C45;
 }
 
 .menu__item {
@@ -140,17 +141,9 @@ p {
 	display: none;
 	border: none;
 	background: none;
-	width: 9%;
-	height: 100%;
+	transform: translateY(-7px);
 }
 
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke: #fff;
-  fill: #fff;
-}
 
 /*hero*/
 
@@ -159,6 +152,7 @@ p {
 	position: relative;
 	padding-bottom: 8px;
 }
+
 
 .hero__left {
 	padding-top: 130px;
