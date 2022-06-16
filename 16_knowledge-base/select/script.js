@@ -8,5 +8,15 @@ document.addEventListener("DOMContentLoaded", function() {
       containerOuter: 'choices header_choices',
      },
   });
+
+  const sel = document.querySelector('.choisec1')
+
+  const choisec1 = new Choices(sel, {
+  	searchEnabled: false,
+  	itemSelectText: '',
+  	classNames: {
+  		containerOuter: 'choices1',
+  	},
+  })
   
 });

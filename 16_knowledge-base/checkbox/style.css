@@ -52,7 +52,7 @@ body {
   transition: border-color .3s ease-in-out;
 }
 
-.checkbox:checked ~ .check__text:after {
+.checkbox:checked > .check__text:after {
   content: '';
   position: absolute;
   width: 8px;

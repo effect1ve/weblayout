@@ -80,7 +80,7 @@ body {
 	margin-right: 5vw;
 }
 
-.header__logo:focus {
+.header__logo:focus-visible {
 	outline: 1px solid #ff9900;
 }
 
@@ -95,7 +95,7 @@ body {
 	 inset 0 -0.3em  white;
 }
 
-.header__img:focus {
+.header__img:focus-visible {
 	outline: 2px solid #FF9900;
 }
 
@@ -193,7 +193,7 @@ input::-webkit-search-results-decoration { display: none; }
 	color: #E1670E;
 }
 
-.header__item-link:focus {
+.header__item-link:focus-visible {
 	outline: 2px solid #FF9900;
 }
 
@@ -363,7 +363,7 @@ input::-webkit-search-results-decoration { display: none; }
 	background-color: #ff9900;
 }
 
-.hero__btn:focus {
+.hero__btn:focus-visible {
 	background: rgba(255, 153, 0, 0.7);
 	border: none;
 	outline: none;
@@ -465,7 +465,7 @@ input::-webkit-search-results-decoration { display: none; }
 	color: #FFF;
 }
 
-.about__more-btn:focus {
+.about__more-btn:focus-visible {
 	background: #FF9900;
 	outline: none;
 }
@@ -576,7 +576,7 @@ input::-webkit-search-results-decoration { display: none; }
 	white-space: nowrap;
 }
 
-.do__btn:focus {
+.do__btn:focus-visible {
 	outline: 2px solid #FF9900;
 	box-sizing: border-box;
 }
@@ -671,7 +671,7 @@ input::-webkit-search-results-decoration { display: none; }
 	background: #E1670E;
 }
 
-.do__content-btn-1:focus {
+.do__content-btn-1:focus-visible {
 	background: #F7B045;
 	outline: none;
 }
@@ -819,15 +819,15 @@ input::-webkit-search-results-decoration { display: none; }
 	color: #333;
 }
 
-.question:focus svg ellipse {
+.question:focus-visible svg ellipse {
 	fill: #FF9900;
 }
 
-.question:focus svg path {
+.question:focus-visible svg path {
 	fill: #fff;
 }
 
-.question:focus {
+.question:focus-visible {
 	outline: 1px solid #ff9900;
 	color: #ff9900;
 }
@@ -912,7 +912,7 @@ input::-webkit-search-results-decoration { display: none; }
 	  box-shadow: none;
 }
 
-.footer__left-logo:focus {
+.footer__left-logo:focus-visible {
 	  outline: 1px solid #ff9900;
 }
 
@@ -941,7 +941,7 @@ input::-webkit-search-results-decoration { display: none; }
 	color: #cacaca;
 }
 
-.footer__left-link:focus {
+.footer__left-link:focus-visible {
 	outline: 1px solid #ff9900;
 }
 
@@ -970,7 +970,7 @@ input::-webkit-search-results-decoration { display: none; }
 	fill: #7c7c7c;
 }
 
-.footer__left-icon-link:focus {
+.footer__left-icon-link:focus-visible {
 		outline: 1px solid #ff9900;
 
 }
@@ -1000,7 +1000,7 @@ input::-webkit-search-results-decoration { display: none; }
 	margin-bottom: 24px;
 }
 
-.footer__form-input:focus {
+.footer__form-input:focus-visible {
 	background: #666;
 	color: #fff;
 }
@@ -1051,7 +1051,7 @@ input::-webkit-search-results-decoration { display: none; }
 	left: 0;
 }
 
-.footer__checkbox:focus + .footer__label-checkbox {
+.footer__checkbox:focus-visible + .footer__label-checkbox {
 	outline: 1px solid #ff9900;
 }
 
