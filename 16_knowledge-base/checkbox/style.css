@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  margin: 0;
+  padding: 50px;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.check__label {
+  margin-bottom: 24px;
+}
+
+.checkbox {
+  display: none;
+  position: relative;
+  
+}
+
+.check__text {
+  position: relative;
+  padding-left: 30px; 
+  cursor: pointer;
+  transition: color .3s ease-in-out;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.check__text:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  border: 1px solid #CCB26E;
+  border-radius: 3px;
+  transition: border-color .3s ease-in-out;
+}
+
+.checkbox:checked > .check__text:after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 7px;
+  background: url(Rectangle.svg);
+  color: #ccb26e;
+  left: 0;
+  transform: translate(5px, 120%);
+}

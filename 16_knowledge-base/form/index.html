@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>form</title>
+</head>
+<body>
+  <form action="#" id="form" class="form">
+    <div class="form-cont">
+      <input type="name" 
+        class="input input-name"
+        placeholder="Имя*"
+        autocomplete="off"
+        data-validate-field="name"
+        name="name">
+    </div>
+    <div class="form-cont">
+      <input type="tel" class="input input-tel"
+        placeholder="Телефон*"
+        autocomplete="off"
+        data-validate-field="phone"
+        name="phone">
+    </div>
+    <div class="form-cont">
+      <input type="email" class="input input-email"
+        placeholder="E-mail*"
+        autocomplete="off"
+        data-validate-field="email"
+        name="email">
+    </div>
+    <button type="submit" class="btn">Заказать</button>
+  </form>
+  <script src="https://rawcdn.githack.com/horprogs/Just-validate/7661936417e8aaad0e059291890c68a6bf473f6b/dist/js/just-validate.min.js"></script>
+  <script src="inputmask.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
